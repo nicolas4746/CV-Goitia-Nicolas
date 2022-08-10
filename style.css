@@ -17,12 +17,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 1px black;
 }
-
 .profileImg{
-	width: 15%;
-	float: left;
-	margin-right: 1rem;
+	width: 20%;
+	display: block;
+	max-width: 20rem;
 }
  
 .profileImg img{
@@ -30,12 +30,60 @@ body {
 	height: auto;
 	border-radius: 50%;
 }
+.profileName{
+	display: contents;
+}
+.profile-contact{
+	display: grid;
+}
 .profileName h1{
-font-size: 2.5rem;
+font-size: 2.8rem;
+text-align: center;
 }
 .profileName h2{
 	font-size: 1.5rem;
+	text-align: center;
 }
+
+.icon-github{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-image: url(./github.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-linkedin{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-image: url(./linkedin.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-envelope{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-image: url(./envelope.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
 .mainArea {
 	width: 90%;
 	display: flex;
