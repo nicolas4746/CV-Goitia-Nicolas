@@ -7,40 +7,60 @@ html{
 	font-size:62.5%;
 }
 body {
-	font-size: 1.6rem;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+h1{
+	font-size: 2.0rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+h2{
+	font-size: 1.8rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+p{
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+li{
+	list-style: none;
+	font-size: 1.5rem;
+}
+
 .header {
-    width: 90%;
+    width: 85%;
     margin: auto;
     padding: 1.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 1px black;
 }
-.profileImg{
+.profile-img{
 	width: 20%;
 	display: block;
 	max-width: 20rem;
 }
  
-.profileImg img{
+.profile-img img{
 	width: 100%;
 	height: auto;
 	border-radius: 50%;
 }
-.profileName{
+.profile-name{
 	display: contents;
 }
 .profile-contact{
 	display: grid;
 }
-.profileName h1{
+.profile-name h1{
 font-size: 2.8rem;
+font-weight: 700;
 text-align: center;
 }
-.profileName h2{
+.profile-name h2{
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -77,14 +97,7 @@ text-align: center;
 }
 
 
-
-
-
-
-
-
-
-.mainArea {
+.main-area {
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
@@ -92,3 +105,27 @@ text-align: center;
 	flex-direction: column;
 	margin: 0 auto;
 }
+.main-area section{
+	width: 100%;
+}
+
+.personal-information{
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+.personal-projects{
+	border-bottom: solid 1px black;
+}
+.work-experience{
+	border-bottom: solid 1px black;
+}
+.skills{
+	border-bottom: solid 1px black;
+}
+.training{
+	border-bottom: solid 1px black;
+}
+.languages{
+	border-bottom: solid 1px black;
+}
+
