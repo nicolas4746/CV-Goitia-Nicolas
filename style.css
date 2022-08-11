@@ -45,7 +45,6 @@ li{
 	width: 20%;
 	display: block;
 	max-width: 20rem;
-	margin-left: 1.5rem;
 	}
  
 .profile-img img{
@@ -74,7 +73,7 @@ text-align: center;
     width: 24px;
     height: 24px;
     margin-bottom: 10px;
-    background-image: url(./github.png);
+    background-image: url(./github-square.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +91,7 @@ text-align: center;
 .icon-envelope{
 	display: inline-block;
     width: 24px;
-    height: 24px;
+    height: 20px;
     margin-bottom: 10px;
     background-image: url(./envelope.png);
     background-size: cover;
@@ -161,4 +160,128 @@ text-align: center;
 }
 .languages-container p{
 	margin-bottom: 3rem;
+}
+
+@media (min-width: 700px) {
+	.header {
+		width: 70%;
+	}
+	.main-area {
+		width: 70%;
+	}
+	.profile-name h1{
+		font-size: 3.4rem;
+	}
+	.profile-name h2{
+		font-size: 2.0rem;
+	}
+	h1{
+		font-size: 1.8rem;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+	p{
+		font-size: 1.3rem;
+	}
+	li{
+		font-size: 1.3rem;
+	}
+	.icon-github{
+		width: 30px;
+		height: 30px;
+	}
+	.icon-linkedin{
+		width: 30px;
+		height: 30px;
+	}
+	.icon-envelope{
+		width: 30px;
+		height: 24px;
+	}
+}
+@media (min-width: 950px) {
+	.header {
+		width: 50%;
+		justify-content: space-evenly;
+	}
+	.main-area {
+		width: 50%;
+	}
+	.profile-name h1{
+		font-size: 3.4rem;
+		margin-bottom: 0;
+	}
+	.profile-name h2{
+		font-size: 2.0rem;
+	}
+	h1{
+		font-size: 2.0rem;
+	}
+	h2{
+		font-size: 1.8rem;
+	}
+	p{
+		font-size: 1.5rem;
+	}
+	li{
+		font-size: 1.5rem;
+	}
+	.icon-github{
+		width: 36px;
+		height: 36px;
+	}
+	.icon-linkedin{
+		width: 36px;
+		height: 36px;
+	}
+	.icon-envelope{
+		width: 36px;
+		height: 30px;
+	}
+}
+@media (min-width: 1500px) {
+	.header {
+		width: 35%;
+		justify-content: space-between;
+	}
+	.main-area {
+		width: 35%;
+	}
+	.profile-name h1{
+		font-size: 4.3rem;
+		margin-bottom:0;
+	}
+	.profile-name h2{
+		font-size: 2.5rem;
+	}
+	h1{
+		font-size: 2.3rem;
+	}
+	h2{
+		font-size: 2.0rem;
+	}
+	p{
+		font-size: 1.7rem;
+	}
+	li{
+		font-size: 1.7rem;
+	}
+	.icon-github{
+		width: 40px;
+		height: 40px;
+	}
+	.icon-linkedin{
+		width: 40px;
+		height: 40px;
+	}
+	.icon-envelope{
+		width: 40px;
+		height: 33px;
+	}
+}	
+@media (min-width: 1650px){
+	.profile-name h1{
+		font-size: 5.0rem;
+	}
 }
