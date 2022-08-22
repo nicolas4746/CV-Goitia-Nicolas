@@ -141,9 +141,7 @@ text-align: center;
 .training{
 	border-bottom: solid 1px black;
 }
-.languages{
-	border-bottom: solid 1px black;
-}
+
 .main-projects-container{
 	display: flex;
 	justify-content: space-around;
@@ -161,7 +159,17 @@ text-align: center;
 .languages-container p{
 	margin-bottom: 3rem;
 }
-
+.languages button{
+	border-radius: 5px;
+    padding: 5px 10px;
+	margin-bottom:30px;
+	margin-top:20px;
+	cursor: pointer;
+}
+.dowload-btn-container {
+	display: flex;
+	justify-content: center;
+}
 @media (min-width: 700px) {
 	.header {
 		width: 70%;
